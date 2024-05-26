@@ -15,6 +15,7 @@ function App() {
       <Router>
         <Suspense fallback={<Loader/>}>
           <Routes>
+            {/* Pages */}
             <Route path="/admin/dashboard" element={<Dashboard/>}/>
             <Route path="/admin/products" element={<Products/>}/>
             <Route path="/admin/customers" element={<Customers/>}/>

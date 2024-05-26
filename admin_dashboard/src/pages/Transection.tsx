@@ -1,7 +1,11 @@
+import AdminSidebar from "../components/AdminSidebar"
 
 const Transection = () => {
   return (
-    <div>Transection</div>
+    <div className="adminContainer">
+      <AdminSidebar/>
+      <main>Transections</main>
+    </div>
   )
 }
 
